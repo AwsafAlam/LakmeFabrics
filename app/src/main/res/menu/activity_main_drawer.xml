@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_Home"
+            android:icon="@drawable/ic_menu_home"
+            android:title="@string/menu_home" />
+        <item
+            android:id="@+id/nav_account"
+            android:icon="@drawable/ic_menu_account"
+            android:title="@string/menu_my_account" />
+        <item
+            android:id="@+id/nav_slideshow"
+            android:icon="@drawable/ic_menu_orders"
+            android:title="@string/menu_my_orders" />
+        <item
+            android:id="@+id/nav_cart"
+            android:icon="@drawable/ic_shopping_cart"
+            android:title="@string/menu_shopping_cart" />
+        <item
+            android:id="@+id/nav_wish"
+            android:icon="@drawable/ic_heart"
+            android:title="@string/menu_wish_list" />
+        <item
+            android:id="@+id/nav_message"
+            android:icon="@android:drawable/ic_dialog_email"
+            android:title="@string/menu_message" />
+
+    </group>
+
+    <item android:title="@string/menu_title_communicate">
+        <menu>
+            <item
+                android:id="@+id/nav_share"
+                android:icon="@drawable/ic_menu_share"
+                android:title="Invite Friends" />
+
+            <item
+                android:id="@+id/nav_coupons"
+                android:icon="@drawable/ic_coupons"
+                android:title="@string/menu_my_coupons" />
+            <item
+                android:id="@+id/nav_settings"
+                android:icon="@drawable/ic_settings"
+                android:title="Settings" />
+
+            <item
+                android:id="@+id/nav_about"
+                android:icon="@drawable/ic_info"
+                android:title="About Us" />
+
+            <item
+                android:id="@+id/nav_suggestion"
+                android:icon="@drawable/ic_star"
+                android:title="App Suggestion" />
+
+        </menu>
+    </item>
+
+</menu>

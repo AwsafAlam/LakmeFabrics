@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "531373439399",
+    "firebase_url": "https://lakmefabrics.firebaseio.com",
+    "project_id": "lakmefabrics",
+    "storage_bucket": "lakmefabrics.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:531373439399:android:83abf8d4270295e6",
+        "android_client_info": {
+          "package_name": "com.awsafalam.lakmefabrics"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "531373439399-u3f57fvoornkgb5h4lsnrvd09c653bt0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.awsafalam.lakmefabrics",
+            "certificate_hash": "7c3c2865846b1ea0b3bf2a0eaa791a801e8b67d3"
+          }
+        },
+        {
+          "client_id": "531373439399-7l4vhgarpera7akjenn3fctuf57amfhr.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCo6-c0Tnn1UxLVX8xKr-EHGzHSvF9d61U"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "531373439399-7l4vhgarpera7akjenn3fctuf57amfhr.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

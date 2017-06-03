@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v4.widget.NestedScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context="com.awsafalam.lakmefabrics.ScrollingActivity"
+    tools:showIn="@layout/activity_scrolling">
+
+  <LinearLayout
+      android:adjustViewBounds="true"
+      android:divider="@drawable/separator"
+      android:showDividers="middle"
+      android:layout_width="match_parent"
+      android:layout_height="wrap_content"
+      android:orientation="vertical">
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Description"
+          android:textAlignment="center"
+          android:textSize="20sp"
+          android:padding="5dp"
+          android:textColor="@color/colorAccent"
+          />
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:id="@+id/Price"
+          android:textAlignment="center"
+          android:textSize="36sp"
+          android:padding="5dp"
+          android:textColor="@color/Red"
+          />
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height= "1dp"
+          android:layout_margin="10dp"
+          android:background="#90909090" />
+
+      <LinearLayout
+          android:adjustViewBounds="true"
+          android:divider="@drawable/separator"
+          android:showDividers="middle"
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:padding="5dp"
+          android:orientation="horizontal">
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:id="@+id/Feedbacks"
+              android:text="Feedbacks"
+              android:textAlignment="center"
+              android:textSize="20sp"
+              android:padding="5dp"
+              android:textColor="@color/colorAccent"
+              />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:id="@+id/Orders"
+              android:text="Orders"
+              android:textAlignment="center"
+              android:textSize="20sp"
+              android:padding="5dp"
+              android:textColor="@color/colorAccent"
+              />
+          <TextView
+              android:layout_width="0dp"
+              android:layout_weight="1"
+              android:layout_height="wrap_content"
+              android:id="@+id/Wishlist"
+              android:text="Wishlist"
+              android:textAlignment="center"
+              android:textSize="20sp"
+              android:padding="5dp"
+              android:textColor="@color/colorAccent"
+              />
+
+
+
+
+      </LinearLayout>
+
+
+      <View
+          android:layout_width="match_parent"
+          android:layout_height= "1dp"
+          android:layout_margin="10dp"
+          android:background="#90909090" />
+
+
+      <TextView
+          android:layout_width="match_parent"
+          android:layout_height="wrap_content"
+          android:text="@string/large_text"/>
+
+
+  </LinearLayout>
+
+
+</android.support.v4.widget.NestedScrollView>
